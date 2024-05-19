@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="pt-Br"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial
+scale=1.0"> 
+<link rel="stylesheet" href="CSS/estilo.css">
+    <title>Meu formulario</title> 
+<body> 
+    <header>
+        <h1>Portfólio Online</h1>
+    </header>
+    <nav class="principal container menu">
+        <ul>
+            <h2> <a href="index.html">Sobre Mim</a></h2>
+            <h2> <a href="formacao.html">Formação Educacional</a></h2>  <!--Mantendo o menu sempre no topo-->
+            <h2> <a href="portfolio.html">Portfólio</a></h2>
+            <h2> <a href="contato.html">Contato</a></h2>
+        </ul>
+       
+    
+    </nav>
+    <form>
+        <table>
+            <br>
+            <br>
+            <h1>Deixe sua mensagem e entraremos em contato</h1>  
+            <br>
+            <tr> 
+                <th><label for="nome">Nome:</label></th>            <!--Label para digitar o nome-->
+                <td><input type="text" name="nome" id="nome"></td>  <!--Caixa para inserir o nome-->
+            </tr> 
+            <tr> 
+                <th><label for="email">E-mail:</label></th>     
+                <td><input type="email" name="email" id="email"></td> 
+            <tr> 
+                <th><label for="telefone">Telefone para contato:</label></th> 
+                <td><input type="telefone" name="telefone" id="telefone"></td>
+            </tr> 
+            <tr> 
+                <th><label for="msg">Digite sua mensagem:</label></th> 
+                <td><textarea name="msg" rows="6" cols="50"></textarea></td> <!-- a Unica mudança é aqui, pois foi adiciomado um area de texto -->
+            </tr> 
+            <tr> 
+                <td></td>       <!--Para manter o botao enviar logo a baixo da digitação da Mensagem-->
+                <td> <button>Enviar</button></td>   <!-- Botao de enviar-->        
+            </tr> 
+        </table> 
+    </form> 
+    <footer>
+        <h1>Desenvolvido para fins educacionais</h1>
+     </footer>
+</body> 
+</html>
